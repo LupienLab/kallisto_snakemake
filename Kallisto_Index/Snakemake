@@ -15,7 +15,7 @@ rule extract_ref:
 	output:
 		"{ref_genome}.fa"
 	shell:
-		"gzip -dk {input}"
+		"gzip -d {input}"
 
 rule trim_header:
 	input:
