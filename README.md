@@ -28,7 +28,7 @@ snakemake --snakefile Snakemake --cores 1
 
 ```
 
-**STEP 3: Edit config.yaml and samples.tsv:**
+**STEP 3: Edit config.yaml, samples.tsv and provide correct paths:**
 ```
 cd kallisto_snakemake/Run_Kallisto
 
