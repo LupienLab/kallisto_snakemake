@@ -1,5 +1,5 @@
 # Becareful not to add slash after the last folder at the end of the paths below. Because I add it in the code and if there are two slashes snakemake throws error. 
 sample_file: samples.tsv
-KALLISTO_INDEX: ../Kallisto_Index/gencode.v38.transcripts.idx
+KALLISTO_INDEX: /FULL_PATH_TO/Kallisto_Index/gencode.v38.transcripts.idx
 DATASET_PATH: data
 OUTPUT_PATH: results
